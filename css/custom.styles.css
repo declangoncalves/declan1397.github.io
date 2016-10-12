@@ -159,6 +159,11 @@
 	font-size: 15px;
 }
 
+.job-description-row {
+	margin-right: 0 !important;
+	margin-left: -30px;
+}
+
 .footer-title {
 	text-align: center;
 }
@@ -183,7 +188,34 @@
 	margin-top: 10px !important;
 }
 
+.project-categories {
+		margin-bottom: 20px;
+	}
+
 body {
-    max-width: 100% !important;
-	overflow-x: hidden;
+	overflow-y: hidden;
 }
+
+/*********** Media Queries ************/
+
+@media screen and (max-width: 991px) {
+	#tf-about .about-text {
+		margin-top: 26px;
+		text-align: justify;
+	}
+
+	.footer-list-item {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+}
+
+@media screen and (max-width: 522px) {
+		.footer-list-item {
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+}
+
+/******** End of Media Queries ********/
