@@ -41,6 +41,9 @@
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
+    <!--<script src = "./js/particles.js-master/particles.js"></script>
+    <script src = "./js/particles.js-master/app.js"></script>-->
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -82,14 +85,16 @@
     <!-- Home Page
     ==========================================-->
     <div id="tf-home" class="text-center">
-        <div class="overlay">
-            <div class="content">
-                <h1>Declan <strong><span class="color">Goncalves</span></strong></h1>
-                <br />
-                <p class="lead"><strong>Motivated, Innovative, </strong>and <strong>One-of-a-Kind.</strong> I am a <strong>Systems Design Engineering</strong><br />student who is obsessed with <strong>exceeding expectations</strong></p>
-                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+        <div id="particles-js"></div>
+
+            <div class="overlay">
+                <div class="content">
+                    <h1 class="declan-title">Declan <strong><span class="color">Goncalves</span></strong></h1>
+                    <br />
+                    <p class="lead typer-subheader">I am <span id="first-typer" class="typer" data-delay="150" data-words="Motivated,Innovative,One-of-a-Kind,Outgoing,Creative" data-colors="#27cece"></span><span class="cursor" data-owner="first-typer"></span></p>
+                    <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+                </div>
             </div>
-        </div>
     </div>
 
     <!-- About Us Page
@@ -408,6 +413,8 @@
         </div>
     </nav>
 
+
+    <script src='js/typer.js'></script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

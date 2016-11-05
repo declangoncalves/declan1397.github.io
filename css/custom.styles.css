@@ -196,6 +196,14 @@ body {
 	overflow-y: hidden;
 }
 
+.declan-title {
+	font-size: 4.5em !important;
+}
+
+.typer-subheader {
+	font-size: 2.5em;
+}
+
 /*********** Media Queries ************/
 
 @media screen and (max-width: 991px) {
@@ -223,3 +231,15 @@ body {
 }
 
 /******** End of Media Queries ********/
+
+/***** Particles,js ******/
+
+#particles-js{
+  width: 100%;
+  background-color: #3284BF;
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/*************************/
