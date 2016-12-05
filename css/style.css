@@ -399,16 +399,30 @@ ol.type li a.active { font-weight: 700; }
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.75);
-	padding: 20px 0;
-	height: auto;
+	padding: 4px 0;
+	height: 78px;
 	width: 100%;
 	opacity: 1;
-	margin-top: 46%;
+	margin-top: 40%;
     transition: all 0.5s;
+	overflow: hidden;
 }
 .hover-bg .hover-text>h4{
 	opacity: 1;
             transition: all 0.3s;
+}
+
+.hover-bg .hover-text>i{
+	margin-top: 12px !important;
+    border: none !important;
+    font-size: 32px !important;
+    padding: 3px !important;
+    color: #fff !important;
+}
+
+.hover-bg .hover-text>i:hover{
+    color: #27cece !important;
+            transition: all 0.1s;
 }
 .hover-bg:hover .hover-text>h4{
 	opacity: 1;
@@ -421,17 +435,21 @@ ol.type li a.active { font-weight: 700; }
 	opacity: 1;
 }
 .hover-bg:hover .hover-text{
-	opacity: 1;
+	height: 128px;
+	margin-top: 32%;
+            transition: all 0.3s;
 }
 #tf-projects i.fa {
-	height: 30px;
-	width: 30px;
-	border: 1px solid #27cece;
-	font-size: 20px;
-	padding: 5px;
-	border-radius: 50%;
-	color: #27cece;
+	margin-top: 12px !important;
+    border: none !important;
+    font-size: 32px !important;
+    padding: 3px !important;
+    color: #fff !important;
 }
+
+#tf-projects i.fa:hover {
+	color: #27ecec !important;
+} 
 /* Testimonials Section */
 #tf-testimonials{
 	background: #ffffff;
@@ -550,3 +568,4 @@ nav#footer p{
 	background: #27cece;
 	border-color: #27cece;
 	color: #ffffff;
+}

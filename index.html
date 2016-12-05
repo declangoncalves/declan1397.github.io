@@ -13,6 +13,7 @@
     
     <!-- Favicons
     ================================================== -->
+    <script src="https://use.fontawesome.com/39d3f164cc.js"></script>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
@@ -40,9 +41,15 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    
+    <!-- Vex Modal Plugin
+    ================================================== -->
+    <script src="js/vex/dist/js/vex.combined.min.js"></script>
+    <script>vex.defaultOptions.className = 'vex-theme-default'</script>
+    <link rel="stylesheet" href="js/vex/dist/css/vex.css" />
+    <link rel="stylesheet" href="js/vex/dist/css/vex-theme-default.css" />
 
-    <!--<script src = "./js/particles.js-master/particles.js"></script>
-    <script src = "./js/particles.js-master/app.js"></script>-->
+    <script src = "./js/particles.js-master/particles.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -85,14 +92,15 @@
     <!-- Home Page
     ==========================================-->
     <div id="tf-home" class="text-center">
-        <div id="particles-js"></div>
-
             <div class="overlay">
+                <div id="particles-js"></div>
                 <div class="content">
+                    <div class="title-background">
                     <h1 class="declan-title">Declan <strong><span class="color">Goncalves</span></strong></h1>
-                    <br />
-                    <p class="lead typer-subheader">I am <span id="first-typer" class="typer" data-delay="100" data-words="Motivated,Innovative,One-of-a-Kind,Outgoing,Creative" data-colors="#27cece"></span><span class="cursor" data-owner="first-typer"></span></p>
-                    <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+                    <!--<br />
+                    <p class="lead typer-subheader">I am <span id="first-typer" class="typer" data-delay="100" data-words="Motivated,Innovative,One-of-a-Kind,Outgoing,Creative" data-colors="#27cece"></span><span class="cursor" data-owner="first-typer"></span></p>-->
+                    <!--<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>-->
+                    </div>
                 </div>
             </div>
     </div>
@@ -146,18 +154,6 @@
                 </div>
 
                 <div id="lightbox1" class="row">
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 BEprogramming">
-                        <h4 class="skill-icon-title">Java</h4>
-                        <div style="text-align: center;">
-                            <div id="demo-pie-1" class="pie-title-center" data-percent="75"><img class="pie-img java" src="./img/skills/java.png"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 BEprogramming">
-                        <h4 class="skill-icon-title">C++</h4>
-                        <div style="text-align: center;">
-                            <div id="demo-pie-2" class="pie-title-center" data-percent="65"><img class="pie-img" src="./img/skills/c++.png"></div>
-                        </div>
-                    </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 FEprogramming">
                         <h4 class="skill-icon-title">ANGULAR 2</h4>
                         <div style="text-align: center;">
@@ -179,7 +175,7 @@
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 FEprogramming BEprogramming">
                         <h4 class="skill-icon-title">Javascript</h4>
                         <div style="text-align: center;">
-                            <div id="demo-pie-6" class="pie-title-center" data-percent="85"><img class="pie-img javascript" src="./img/skills/javascript.png"></div>
+                            <div id="demo-pie-6" class="pie-title-center" data-percent="90"><img class="pie-img javascript" src="./img/skills/javascript.png"></div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 FEprogramming design1">
@@ -191,7 +187,19 @@
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 BEprogramming">
                         <h4 class="skill-icon-title">Node JS</h4>
                         <div style="text-align: center;">
-                            <div id="demo-pie-8" class="pie-title-center" data-percent="70"><img class="pie-img" src="./img/skills/node-js.svg"></div>
+                            <div id="demo-pie-8" class="pie-title-center" data-percent="80"><img class="pie-img" src="./img/skills/node-js.svg"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 BEprogramming">
+                        <h4 class="skill-icon-title">Java</h4>
+                        <div style="text-align: center;">
+                            <div id="demo-pie-1" class="pie-title-center" data-percent="65"><img class="pie-img java" src="./img/skills/java.png"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 BEprogramming">
+                        <h4 class="skill-icon-title">C++</h4>
+                        <div style="text-align: center;">
+                            <div id="demo-pie-2" class="pie-title-center" data-percent="65"><img class="pie-img" src="./img/skills/c++.png"></div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 BEprogramming">
@@ -236,26 +244,27 @@
                 <em>Having knowledge but lacking the power to express it clearly is no better than never having any ideas at all - Pericles</em></small>
             </div>
             <div class="row">
+                
                 <div class="col-md-3 col-sm-6 service">
-                    <i title="Click Me!" class="fa fa-comments soft-skill-icon"></i>
+                    <i id="element" title="Click Me!" class="fa fa-comments soft-skill-icon communication-icon"></i>
                     <h4><strong>Communication</strong></h4>
                     <p>Exceptional communication and interpersonal skills proven in and out of the workplace</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 service">
-                    <i title="Click Me!" class="fa fa-group soft-skill-icon"></i>
+                    <i title="Click Me!" class="fa fa-group soft-skill-icon teamwork-icon"></i>
                     <h4><strong>Teamwork</strong></h4>
                     <p>Outstanding leadership and teamwork demonstrated through various internships, projects, and sports teams</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 service">
-                    <i title="Click Me!" class="fa fa-rocket soft-skill-icon"></i>
+                    <i title="Click Me!" class="fa fa-rocket soft-skill-icon motivation-icon"></i>
                     <h4><strong>Self Motivation</strong></h4>
                     <p>Unparalleled work-ethic and drive. My self-motivation constantly pushes me to exceed expectations</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 service">
-                    <i title="Click Me!" class="fa fa-lightbulb-o soft-skill-icon"></i>
+                    <i title="Click Me!" class="fa fa-lightbulb-o soft-skill-icon creativity-icon"></i>
                     <h4><strong>Creativity</strong></h4>
                     <p>Incredible passion for generating new ideas and discovering innovative solutions</p>
                 </div>
@@ -302,6 +311,9 @@
                                         <h4>Arrow AI 1.0</h4>
                                         <small>Medical Diagnostics Assistant</small>
                                         <div class="clearfix"></div>
+                                        <a href="http://declangoncalves.com/Arrow-AI/" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
+                                        <a href="https://github.com/declan1397/Arrow-AI" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                        <a href="https://devpost.com/software/arrow-ai" target="blank"><i class="fa fa-trophy project-link-icons"></i></a>
                                     </div>
                                     <img src="img/portfolio/arrowai.jpg" class="img-responsive" alt="...">
                                 </a>
@@ -317,6 +329,7 @@
                                         <h4>Stubblet</h4>
                                         <small>Sublets for Students</small>
                                         <div class="clearfix"></div>
+                                        <a href="https://github.com/declan1397/KrakenDesktop" target="blank"><i class="fa fa-github project-link-icons"></i></a>
                                     </div>
                                     <img src="img/portfolio/stubblet.jpg" class="img-responsive" alt="...">
                                 </a>
@@ -332,6 +345,7 @@
                                         <h4>Arrow AI 2.0</h4>
                                         <small>Medical Diagnostics Assistant</small>
                                         <div class="clearfix"></div>
+                                        <h5 style="font-style: italic; margin-top: 16px">Under Construction</h5>
                                     </div>
                                     <img src="img/portfolio/arrowai.jpg" class="img-responsive" alt="...">
                                 </a>
@@ -347,6 +361,7 @@
                                         <h4>Snaptrax</h4>
                                         <small>Find the Perfect Soundtracks for Your Videos</small>
                                         <div class="clearfix"></div>
+                                        <a href="https://github.com/declan1397/SnapTrax" target="blank"><i class="fa fa-github project-link-icons"></i></a>
                                     </div>
                                     <img src="img/portfolio/snaptrax.png" class="img-responsive" alt="...">
                                 </a>
@@ -362,6 +377,7 @@
                                         <h4>Bubble</h4>
                                         <small>Social Group App</small>
                                         <div class="clearfix"></div>
+                                        <a href="https://github.com/declan1397/Bubble_AndroidBuild" target="blank"><i class="fa fa-github project-link-icons"></i></a>
                                     </div>
                                     <img src="img/portfolio/bubble.png" class="img-responsive" alt="...">
                                 </a>
@@ -377,6 +393,7 @@
                                         <h4>SmartCoach</h4>
                                         <small>A Personal Trainer on Your Phone</small>
                                         <div class="clearfix"></div>
+                                        <a href="https://github.com/sebastiencrevier/SmartCoach" target="blank"><i class="fa fa-github project-link-icons"></i></a>
                                     </div>
                                     <img src="img/portfolio/smartcoach.png" class="img-responsive" alt="...">
                                 </a>
