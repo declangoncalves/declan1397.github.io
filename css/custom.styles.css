@@ -293,9 +293,19 @@ canvas {
 
 @media screen and (max-width: 522px) {
 	#tf-home .content {
-		padding: 350px 0 0 !important;
+		padding: 300px 0 0 !important;
+	}
+	.projectTypeList {
+		visibility: hidden;
+	}
+
+	.project-hover-text {
+    	margin-top: 100px !important;
+		padding: 10px !important;
 	}
 }
+
+
 
 .title-background {
 	background: rgba(0,0,0,0.55);
