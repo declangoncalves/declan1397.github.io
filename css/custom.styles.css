@@ -66,12 +66,10 @@
 }
 
 .pie-img {
-  display: block;
-  position: absolute;
   font-size: 14px;
-  width: 50%;
-  margin: 0 auto;	
-  top: 22%;
+  height: 100px;
+  margin: 0px;	
+  top: 0;
   left: 0;
   right: 0;
   line-height: 40px;
@@ -97,8 +95,7 @@
 }
 
 .arduino {
-	width: 56%;
-	top: 21%;
+
 }
 
 .postgres {
@@ -126,6 +123,7 @@
 .skill-icon-title {
 	text-align: center;
 	margin-top: 36px;
+    margin-bottom: 14px;
 }
 
 .skills-menu {
