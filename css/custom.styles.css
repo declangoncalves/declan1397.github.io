@@ -198,6 +198,11 @@ body {
 	font-size: 4.5em !important;
 }
 
+@media screen and (max-width: 522px) {
+	.declan-title {
+		font-size: 3.5em !important;
+	}
+}
 .typer-subheader {
 	font-size: 2.5em;
 }
@@ -282,9 +287,14 @@ canvas {
 #tf-home, #tf-home .overlay {
 	height: 100vh;
 }
-
 #tf-home .content {
 	padding: 26% 0 0;
+}
+
+@media screen and (max-width: 522px) {
+	#tf-home .content {
+		padding: 350px 0 0 !important;
+	}
 }
 
 .title-background {
