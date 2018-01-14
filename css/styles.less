@@ -1,0 +1,41 @@
+
+
+a { color: #27cece; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.arrow a:hover, .bounce:hover,  {
+    color: #27cece !important;
+    cursor: default;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.arrow-background-circle {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    width: fit-content;
+    margin: 0 auto;
+    border: solid;
+    border-radius: 50%;
+    border-color: #27cece;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

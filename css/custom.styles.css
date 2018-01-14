@@ -1,3 +1,6 @@
+
+
+
 #tf-home h1 {
 	font-size: 54px;
 }
@@ -191,11 +194,16 @@
 	}
 
 body {
-	overflow-y: hidden;
+	overflow-y: auto;
 }
 
 .declan-title {
 	font-size: 4.5em !important;
+}
+
+.big-border-top-bottom {
+	border-top: solid 15px #27cece;
+    border-bottom: solid 15px #27cece;
 }
 
 @media screen and (max-width: 522px) {
@@ -285,16 +293,37 @@ canvas {
 
 	
 #tf-home, #tf-home .overlay {
+	position: relative;
 	height: 100vh;
 }
 #tf-home .content {
-	padding: 26% 0 0;
+    padding: 0;
+    top: 60%;
+}
+
+.mainpic-container {
+	width: 100%;
+    padding-bottom: 65%;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    align-items: unset;
+}
+
+.mainpic-container img {
+	position: absolute;
+	margin-top: -90px;
 }
 
 @media screen and (max-width: 522px) {
 	#tf-home .content {
-		padding: 300px 0 0 !important;
+		top: 60%;
 	}
+
+	#tf-home .content .arrow {
+		display: none;
+	}
+
 	.projectTypeList {
 		visibility: hidden;
 	}
@@ -309,7 +338,9 @@ canvas {
 
 .title-background {
 	background: rgba(0,0,0,0.55);
-	padding: 1.4%;
+    padding: 1.4%;
+    border-top: solid 2px #27cece;
+    border-bottom: solid 2px #27cece;
 }
 #tf-home .title-background h1 {
 	margin-top: 10px !important;
