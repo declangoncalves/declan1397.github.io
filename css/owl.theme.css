@@ -37,7 +37,7 @@
 
 .owl-theme .owl-controls .owl-page{
 	display: inline-block;
-	zoom: 1;
+	zoom: 2;
 	*display: inline;/*IE7 life-saver */
 }
 .owl-theme .owl-controls .owl-page span{

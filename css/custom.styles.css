@@ -201,6 +201,15 @@ body {
 	font-size: 4.5em !important;
 }
 
+.no-expand {
+	height: 78px !important;
+	margin-top: 40% !important;
+}
+
+.no-expand:hover {
+    margin-top: 38% !important;
+}
+
 .big-border-top-bottom {
 	border-top: solid 15px #27cece;
     border-bottom: solid 15px #27cece;
@@ -226,6 +235,10 @@ body {
 	.footer-list-item {
 		padding-right: 25px;
 		padding-left: 25px;
+	}
+
+	#tf-about {
+		padding: 40px 0;
 	}
 
 }
@@ -298,7 +311,7 @@ canvas {
 }
 #tf-home .content {
     padding: 0;
-    top: 60%;
+	top: 60%;
 }
 
 .mainpic-container {
@@ -332,6 +345,8 @@ canvas {
     	margin-top: 100px !important;
 		padding: 10px !important;
 	}
+
+
 }
 
 

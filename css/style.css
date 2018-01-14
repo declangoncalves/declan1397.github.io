@@ -150,6 +150,10 @@ font-weight: 900;
 	color: #27cece;
 }
 
+.color-white {
+	color: white;
+}
+
 a.fa.fa-angle-down {
 	padding: 10px 15px;
 	color: #fff;
@@ -386,11 +390,17 @@ ol.type li a.active { font-weight: 700; }
 }
 .portfolio-item{
 	margin-bottom: 30px;
+	background: white;
 }
 .portfolio-item .hover-bg{
 	height: 260px;
 	overflow: hidden;
 	position: relative;
+	display: flex;
+}
+
+.portfolio-item .hover-bg img {
+	align-self: center;
 }
 
 .hover-bg .hover-text {
@@ -547,7 +557,7 @@ nav#footer{
 	background: #222222;
 	color: #ffffff;
 	padding: 40px 0 25px 0;
-	border-top: solid 36px #27cece;
+	/* border-top: solid 36px #27cece; */
 }
 
 nav#footer p{

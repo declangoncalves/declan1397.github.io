@@ -34,6 +34,7 @@
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/styles2.css">
     <link rel="stylesheet" type="text/css"  href="css/custom.styles.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
@@ -94,35 +95,315 @@
     <div id="tf-home" class="text-center">
             <div class="overlay">
                 <div id="particles-js"></div>
-                <div class="content" style="padding: 400px 0 0">
+                <div class="content">
                     <div class="title-background">
-                    <h1 class="declan-title">Declan <strong><span class="color">Goncalves</span></strong></h1>
+                    <h1 class="declan-title"><strong><span class="color-white">Declan Goncalves</span></strong></h1>
                     <!--<br />
                     <p class="lead typer-subheader">I am <span id="first-typer" class="typer" data-delay="100" data-words="Motivated,Innovative,One-of-a-Kind,Outgoing,Creative" data-colors="#27cece"></span><span class="cursor" data-owner="first-typer"></span></p>-->
                     <!--<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>-->
                     </div>
+                    <div class="arrow bounce">
+                        <div class="arrow-background-circle">
+                            <a class="fa fa-chevron-down fa-2x" href="#"></a>
+                        </div>
+                      </div>
                 </div>
             </div>
     </div>
 
     <!-- About Us Page
     ==========================================-->
-    <div id="tf-about">
+    <div id="tf-about" class="big-border-top-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="img/cropped.jpg" class="img-responsive">
+                    <div class="mainpic-container">
+                        <img src="img/mainpic2.jpg" class="img-responsive">
+                    </div>
                 </div>
                 <div class="col-md-7">
                     <div class="about-text">
                         <div class="section-title">
-                            <h2><strong>About</strong> Me</h2>
+                            <h2><strong>About Me</strong></h2>
                             <hr>
                             <div class="clearfix"></div>
                         </div>
                         <p class="intro">I'm an outgoing student studying Software Engineering at the University of Waterloo, who has a passion for software development, learning new technologies, and entrepreneurship.</p>
-                        <p class="intro">My leap into the world of programming began when I first taught myself HTML, CSS, and JavaScript while I was 12 years old, and I then went on to make many websites throughout high school.</p>
+                        <p class="intro">My leap into the world of programming began when I first taught myself HTML, CSS, and JavaScript while I was 13 years old, and I then went on to make many websites throughout high school.</p>
                         <p class="intro">Throughout my life, I have always been fascinated by software, innovative ideas, and cutting-edge technology, and I aspire to make a career out of them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section
+    ==========================================-->
+    <div id="tf-projects">
+        <div class="overlay">
+            <div class="container"> <!-- Container -->
+                <div class="section-title text-center center">
+                    <h2><strong>Side Projects</strong></h2>
+                    <div class="line">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="categories project-categories projectTypeList">
+                    
+                    <ul class="cat2">
+                        <li class="pull-left"><h4>Filter by Type:</h4></li>
+                        <li class="pull-right">
+                            <ol class="type">
+                                <li><a href="#" data-filter="*" class="active">All</a></li>
+                                <li><a href="#" data-filter=".web">Web</a></li>
+                                <li><a href="#" data-filter=".windows" >Desktop</a></li>
+                                <li><a href="#" data-filter=".mobile" >Mobile</a></li>
+                                <li><a href="#" data-filter=".design2" >Design</a></li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="lightbox2" class="row">
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 windows design2">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <a target="_blank" >
+                                        <div class="hover-text project-hover-text">
+                                            <h4>NeuroGate</h4>
+                                            <small>ImagineCup Canada National Champion</small>
+                                            <div class="clearfix"></div>
+                                            <a href="http://neurogate.ca/" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
+                                            <a href="https://www.neurogate.ca/blog.html#canada" target="blank"><i class="fa fa-trophy project-link-icons"></i></a>
+                                                                            </div>
+                                        <img src="img/portfolio/neurogate.png" class="img-responsive" alt="..." style="height: 100%;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3 web design2">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <a target="_blank" href="http://declangoncalves.com/Arrow-AI/">
+                                        <div class="hover-text project-hover-text">
+                                            <h4>Arrow AI</h4>
+                                            <small>HackHarvard Winner</small>
+                                            <div class="clearfix"></div>
+                                            <a href="http://declangoncalves.com/Arrow-AI/" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
+                                            <a href="https://github.com/declan1397/Arrow-AI" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                            <a href="https://devpost.com/software/arrow-ai" target="blank"><i class="fa fa-trophy project-link-icons"></i></a>
+                                        </div>
+                                        <img src="img/portfolio/arrowai.jpg" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 col-lg-3 web mobile design2">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <a target="_blank" >
+                                        <div class="hover-text project-hover-text">
+                                            <h4>Rx Ad-Checker</h4>
+                                            <small>Medical Web App Prototype</small>
+                                            <div class="clearfix"></div>
+                                            <a href="http://declangoncalves.com/RxAdChecker/" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
+                                            <a href="https://github.com/declan1397/RxAdChecker" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                                                            </div>
+                                        <img src="img/portfolio/rxadchecker.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 web mobile design2">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a target="_blank" >
+                                    <div class="hover-text project-hover-text no-expand">
+                                        <h4>GaitWay</h4>
+                                        <small>iOS and React App for Physiotherapists</small>
+                                        <div class="clearfix"></div>
+                                                                        </div>
+                                    <img src="img/portfolio/motionmap.jpg" class="img-responsive" alt="..." >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 web mobile design2">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a target="_blank" >
+                                    <div class="hover-text project-hover-text no-expand">
+                                        <h4>Personal Website</h4>
+                                        <small>You're on it right now!</small>
+                                        <div class="clearfix"></div>
+                                                                        </div>
+                                    <img src="img/portfolio/personalwebsite.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 web design2">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a target="_blank" >
+                                    <div class="hover-text project-hover-text">
+                                        <h4>NeuroGate Website</h4>
+                                        <small>Product Website</small>
+                                        <div class="clearfix"></div>
+                                        <a href="http://neurogate.ca//" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
+                                    </div>
+                                    <img src="img/portfolio/neurogate_website.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 web design2">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a target="_blank">
+                                    <div class="hover-text project-hover-text">
+                                        <h4>Stubblet</h4>
+                                        <small>Subletting Web Application</small>
+                                        <div class="clearfix"></div>
+                                        <a href="https://github.com/declan1397/KrakenDesktop" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                    </div>
+                                    <img src="img/portfolio/stubblet.jpg" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 web design2">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a target="_blank" href="http://snaptrax.org/">
+                                    <div class="hover-text project-hover-text">
+                                        <h4>Snaptrax</h4>
+                                        <small>Hackathon Web Application</small>
+                                        <div class="clearfix"></div>
+                                        <a href="http://chriscarnduff.github.io/snaptrax/index.html" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
+                                        <a href="https://github.com/declan1397/SnapTrax" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                    </div>
+                                    <img src="img/portfolio/snaptrax.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 mobile">
+                        <div class="portfolio-item bubble">
+                            <div class="hover-bg">
+                                <a>
+                                    <div class="hover-text project-hover-text">
+                                        <h4>Bubble</h4>
+                                        <small>Social Networking Android App</small>
+                                        <div class="clearfix"></div>
+                                        <a href="https://github.com/declan1397/Bubble_AndroidBuild" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                    </div>
+                                    <img src="img/portfolio/bubble.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 mobile">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a>
+                                    <div class="hover-text project-hover-text">
+                                        <h4>SmartCoach</h4>
+                                        <small>Personal Trainer Android App</small>
+                                        <div class="clearfix"></div>
+                                        <a href="https://github.com/sebastiencrevier/SmartCoach" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                    </div>
+                                    <img src="img/portfolio/smartcoach.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 windows">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a>
+                                    <div class="hover-text project-hover-text">
+                                        <h4>Straights AI</h4>
+                                        <small>A multiplayer, strategy based card-game </small>
+                                        <div class="clearfix"></div>
+                                        <a href="https://github.com/declan1397/Straights-AI-Extreme" target="blank"><i class="fa fa-github project-link-icons"></i></a>
+                                    </div>
+                                    <img src="img/portfolio/straights.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 design2">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a>
+                                    <div class="hover-text project-hover-text no-expand">
+                                        <h4>Jerry Can-Carry</h4>
+                                        <small>Systems Design Engineering Project</small>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <img src="img/portfolio/jerry.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Experience Section
+    ==========================================-->
+    <div id="tf-testimonials" class="text-center big-border-top-bottom">
+        <div class="overlay" style="padding-bottom: 20px;">
+            <div class="container">
+                <div class="section-title center">
+                    <h2><strong>Work Experience</strong></h2>
+                    <div class="line"></div>
+                    </div>
+                </div>
+                <div class="row job-description-row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div id="testimonial" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="https://www.zazzle.com/" target="new" ><img class="job-image" src="img/work-experience/zazzle-icon.png" /></a>
+                                <h3 class="job-title">Full-Stack Engineering Intern</h3>
+                                <p class="job-description-text">Primarily focusing on UI development, I worked on converting the existing ASP .NET codebase to React and Redux, as well as contributing to their C# codebase.</p>
+                            </div>
+                            
+                            <div class="item">
+                                <a href="http://whut.com/" target="new" ><img class="job-image" src="img/work-experience/whut-logo-blue.png" /></a>
+                                <h3 class="job-title">Full-Stack Engineering Intern</h3>
+                                <p class="job-description-text">Involved in all aspects of the software development life-cycle, including choosing development frameworks, designing product features, and both front-end and back-end software development using Angular 2, Node JS, PostgreSQL, and various other technologies.</p>
+                            </div>
+
+                            <div class="item">
+                                <a href="http://www.veriday.com/" target="new" ><img class="job-image" src="img/work-experience/veriday.png" /></a>
+                                <h3 class="job-title">Web Designer / Developer Intern</h3>
+                                <p class="job-description-text">Designed and built over 100 Manulife Investment Advisor websites using HTML5, CSS3, JavaScript and jQuery, as well as being involved with various aspects of product management.</p>
+                            </div>
+
+                            <div class="item">
+                                <a href="http://www.shoplogix.com/" target="new" ><img class="job-image" src="img/work-experience/shoplogix.jpg" /></a>
+                                <h3 class="job-title">SaaS Business Development Associate</h3>
+                                <p class="job-description-text">Provided consulting services to management at automotive plants, using automation and analytics to help them improve OEE and production efficiency by up to 20 %.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,7 +416,7 @@
         <div class="overlay">
             <div class="container"> <!-- Container -->
                 <div class="section-title text-center center" style="padding-bottom: 0;">
-                    <h2><strong>Skill </strong>Set</h2>
+                    <h2><strong>Skill Set</strong></h2>
                     <div class="line">
                     </div>
                 </div>
@@ -268,15 +549,15 @@
 
     <!-- Soft Skills Section
     ==========================================-->
-    <div id="tf-soft-skills" class="text-center">
+    <div id="tf-soft-skills" class="text-center  big-border-top-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Personality<strong></strong></h2>
+                <h2><strong>What sets me apart?</strong></h2>
                 <div class="line">
                 </div>
                 <br />
                 <div class="clearfix"></div>
-                <em>Having knowledge but lacking the power to express it clearly is no better than never having any ideas at all - Pericles</em></small>
+                <!-- <em>Having knowledge but lacking the power to express it clearly is no better than never having any ideas at all - Pericles</em></small> -->
             </div>
             <div class="row">
                 
@@ -302,209 +583,6 @@
                     <i class="fa fa-lightbulb-o soft-skill-icon creativity-icon"></i>
                     <h4><strong>Creativity</strong></h4>
                     <p>Incredible passion for generating new ideas and discovering innovative solutions</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Projects Section
-    ==========================================-->
-    <div id="tf-projects">
-        <div class="overlay">
-            <div class="container"> <!-- Container -->
-                <div class="section-title text-center center">
-                    <h2>My <strong>Projects</strong></h2>
-                    <div class="line">
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-
-                <div class="categories project-categories projectTypeList">
-                    
-                    <ul class="cat2">
-                        <li class="pull-left"><h4>Filter by Type:</h4></li>
-                        <li class="pull-right">
-                            <ol class="type">
-                                <li><a href="#" data-filter="*" class="active">All</a></li>
-                                <li><a href="#" data-filter=".web">Web Development</a></li>
-                                <li><a href="#" data-filter=".windows" >Windows Development</a></li>
-                                <li><a href="#" data-filter=".mobile" >Mobile Development</a></li>
-                                <li><a href="#" data-filter=".design2" >Design</a></li>
-                            </ol>
-                        </li>
-                    </ul>
-                    <div class="clearfix"></div>
-                </div>
-
-                <div id="lightbox2" class="row">
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 windows design2">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a target="_blank" >
-                                    <div class="hover-text project-hover-text">
-                                        <h4>NeuroGate</h4>
-                                        <small>ImagineCup Canada National Champion</small>
-                                        <div class="clearfix"></div>
-                                        <a href="http://neurogate.ca/" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
-                                                                        </div>
-                                    <img src="img/portfolio/neurogate.png" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 web design2">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a target="_blank" href="http://declangoncalves.com/Arrow-AI/">
-                                    <div class="hover-text project-hover-text">
-                                        <h4>Arrow AI 1.0</h4>
-                                        <small>HackHarvard Winner</small>
-                                        <div class="clearfix"></div>
-                                        <a href="http://declangoncalves.com/Arrow-AI/" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
-                                        <a href="https://github.com/declan1397/Arrow-AI" target="blank"><i class="fa fa-github project-link-icons"></i></a>
-                                        <a href="https://devpost.com/software/arrow-ai" target="blank"><i class="fa fa-trophy project-link-icons"></i></a>
-                                    </div>
-                                    <img src="img/portfolio/arrowai.jpg" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 web design2">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a target="_blank" >
-                                    <div class="hover-text project-hover-text">
-                                        <h4>NeuroGate Website</h4>
-                                        <small>Product Website</small>
-                                        <div class="clearfix"></div>
-                                        <a href="http://neurogate.ca//" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
-                                    </div>
-                                    <img src="img/portfolio/neurogate_website.png" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 web design2">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a target="_blank">
-                                    <div class="hover-text project-hover-text">
-                                        <h4>Stubblet</h4>
-                                        <small>Subletting Web Application</small>
-                                        <div class="clearfix"></div>
-                                        <a href="https://github.com/declan1397/KrakenDesktop" target="blank"><i class="fa fa-github project-link-icons"></i></a>
-                                    </div>
-                                    <img src="img/portfolio/stubblet.jpg" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 web design2">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a target="_blank" href="http://snaptrax.org/">
-                                    <div class="hover-text project-hover-text">
-                                        <h4>Snaptrax</h4>
-                                        <small>Hackathon Web Application</small>
-                                        <div class="clearfix"></div>
-                                        <a href="http://chriscarnduff.github.io/snaptrax/index.html" target="blank"><i class="fa fa-tv project-link-icons"></i></a>
-                                        <a href="https://github.com/declan1397/SnapTrax" target="blank"><i class="fa fa-github project-link-icons"></i></a>
-                                    </div>
-                                    <img src="img/portfolio/snaptrax.png" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 mobile">
-                        <div class="portfolio-item bubble">
-                            <div class="hover-bg">
-                                <a>
-                                    <div class="hover-text project-hover-text">
-                                        <h4>Bubble</h4>
-                                        <small>Social Networking Android App</small>
-                                        <div class="clearfix"></div>
-                                        <a href="https://github.com/declan1397/Bubble_AndroidBuild" target="blank"><i class="fa fa-github project-link-icons"></i></a>
-                                    </div>
-                                    <img src="img/portfolio/bubble.png" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 mobile">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a>
-                                    <div class="hover-text project-hover-text">
-                                        <h4>SmartCoach</h4>
-                                        <small>Personal Trainer Android App</small>
-                                        <div class="clearfix"></div>
-                                        <a href="https://github.com/sebastiencrevier/SmartCoach" target="blank"><i class="fa fa-github project-link-icons"></i></a>
-                                    </div>
-                                    <img src="img/portfolio/smartcoach.png" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-3 design2">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a>
-                                    <div class="hover-text project-hover-text">
-                                        <h4>Jerry Can-Carry</h4>
-                                        <small>Systems Design Engineering Project</small>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                    <img src="img/portfolio/jerry.png" class="img-responsive" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Work Experience Section
-    ==========================================-->
-    <div id="tf-testimonials" class="text-center">
-        <div class="overlay" style="padding-bottom: 20px;">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>Work <strong>Experience</strong></h2>
-                    <div class="line"></div>
-                    </div>
-                </div>
-                <div class="row job-description-row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div id="testimonial" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <a href="http://whut.com/" target="new" ><img class="job-image" src="img/work-experience/whut-logo-blue.png" /></a>
-                                <h3 class="job-title">Software Engineer</h3>
-                                <p class="job-description-text">Involved in all aspects of the software development life-cycle, including choosing development frameworks, designing product features, and both front-end and back-end software development using Angular 2, Node JS, PostgreSQL, and various other technologies.</p>
-                            </div>
-
-                            <div class="item">
-                                <a href="http://www.veriday.com/" target="new" ><img class="job-image" src="img/work-experience/veriday.png" /></a>
-                                <h3 class="job-title">Web Developer</h3>
-                                <p class="job-description-text">Designed and built over 100 Manulife Investment Advisor websites using HTML5, CSS3, JavaScript and jQuery, as well as being involved with various aspects of product management.</p>
-                            </div>
-
-                            <div class="item">
-                                <a href="http://www.shoplogix.com/" target="new" ><img class="job-image" src="img/work-experience/shoplogix.jpg" /></a>
-                                <h3 class="job-title">SaaS Business Development Associate</h3>
-                                <p class="job-description-text">Provided consulting services to management at automotive plants, using automation and analytics to help them improve OEE and production efficiency by up to 20 %.</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
