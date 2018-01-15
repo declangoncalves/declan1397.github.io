@@ -6,10 +6,10 @@ a {
   text-align: center;
   margin-top: 5%;
 }
-.arrow a:hover,
-.bounce:hover {
-  color: #27cece !important;
-  cursor: default;
+.arrow-background-circle:hover,
+.arrow-background-circle:hover a {
+  background: #27cece;
+  color: white;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
