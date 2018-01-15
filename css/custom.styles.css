@@ -97,6 +97,20 @@
 	width: 62%;
 }
 
+.react-icon {
+	height: 110px;
+	margin-top: -10px;
+}
+
+.redux-icon {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.neurogate-portfolio-card {
+	height: 100%;
+}
+
 .arduino {
 
 }
@@ -241,6 +255,11 @@ body {
 		padding: 40px 0;
 	}
 
+	.neurogate-portfolio-card {
+		height: unset;
+	}
+
+
 }
 
 @media screen and (max-width: 522px) {
@@ -338,12 +357,28 @@ canvas {
 	}
 
 	.projectTypeList {
-		visibility: hidden;
+		display: none;
 	}
 
 	.project-hover-text {
     	margin-top: 100px !important;
 		padding: 10px !important;
+	}
+
+	.hover-text {
+		height: 128px !important;
+		align-self: center;
+		margin-top: 0 !important;
+	}
+	
+	.no-expand {
+		align-self: center;
+		margin-top: 25% !important;
+		height: 78px !important;
+	}
+
+	.no-expand:hover {
+		margin-top: 25% !important;
 	}
 
 
